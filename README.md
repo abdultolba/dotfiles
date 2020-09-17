@@ -7,7 +7,7 @@
 :warning: **Warning**: If you'd like to checkout these dotfiles on your machine, I recommend forking this repository, reviewing the code, & removing the things you don’t want or need. **Do not use my configuration blindly without knowing what it entails**. Use at your own risk!
 
 ## Feedback
-Suggestions and feedback are [welcome](https://github.com/abdultolba/dotfiles) :)
+Suggestions and feedback are [welcome](https://github.com/abdultolba/dotfiles/issues) :)
 
 ## Thanks to...
 - [Idris Hanafi](https://idrishanafi.info) and his [dotfiles setup](https://github.com/IdrisHanafi/dotfiles)
