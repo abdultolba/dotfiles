@@ -12,4 +12,5 @@ Suggestions and feedback are [welcome](https://github.com/abdultolba/dotfiles/is
 ## Thanks to...
 - [Idris Hanafi](https://idrishanafi.info) and his [dotfiles setup](https://github.com/IdrisHanafi/dotfiles)
 - [Mathias Bynens](https://mathiasbynens.be/) and his [dotfiles setup](https://github.com/mathiasbynens/dotfiles)
+- [Clovis App](https://www.clovis.pro) for their [iTerm/zsh guide](https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961)
 <!--More to come-->
