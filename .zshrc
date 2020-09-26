@@ -97,10 +97,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias mgd='osascript Documents/Scripts/mg-dev-server.scpt'
-alias mgp='osascript Documents/Scripts/mg-server.scpt'
-alias friendly='cd ~/Documents/My_Stuff/Programming/Github/social-mern && code . && exit'
-alias indus='cd ~/Documents/My_Stuff/Programming/Github/kaaro-distributors && code . && exit'
+alias mgd='osascript ~/Documents/Scripts/mg-dev-server.scpt'
+alias mgp='osascript ~/Documents/Scripts/mg-server.scpt'
+alias friendly='code ~/Documents/My_Stuff/Programming/Github/social-mern && exit'
+alias indus='code ~/Documents/My_Stuff/Programming/Github/kaaro-distributors && exit'
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
@@ -120,10 +120,13 @@ POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbo
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # git add, commit, and push to current repo
+# @param $1 - the commit message
+# @param $2 - the branch to push to
+# ex: lgit "📝 Some commit message..." master
 function lgit(){
     git add .
     git commit -a -m "$1"
-    git push
+    git push origin $2
 }
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
